@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="/styles/stylesheet.css" />
+  <script src="/vendors/jquery.min.js"></script>
+  <script src="/scripts/clientapp.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1>To-do list! (actually do this shit dude..)</h1>
+    <form id="tasks">
+      <label for="name">Task:</label>
+      <input type="text" id="name" name="name" />
+      <label for="description">What do:</label>
+      <textarea name="description" id="description" class="descriptionbox"></textarea>
+      <button id="submit" class="submit">DO IT</button>
+    </form>
+    <h2>Get this garbage done</h2>
+    <table id="todoTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Done...??</th>
+          <th>Set Complete</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id = "todoIncomplete" class = "todoStuff">
+
+    </tbody>
+
+  </table>
+  <h2>Completed Tasks</h2>
+  <table id="todoComplete">
+      <thead>
+        <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Done...??</th>
+    </tr>
+  </thead>
+    <tbody id = "todoStuffComplete" class="todoStuff">
+
+    </tbody>
+
+    </table>
+  </div>
+  <div id="background">
+    <img src="/styles/weekend4background.jpg" alt="Smiley Face" />
+  </div>
+</body>
+</html>

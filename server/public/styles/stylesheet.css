@@ -1,0 +1,78 @@
+#background {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+  z-index: -1;
+}
+
+#background img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+	opacity: 0.2;
+}
+
+#container {
+  text-align: center;
+  font-family: fantasy;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  color: firebrick;
+  font-family: cursive;
+}
+
+#tasks {
+  text-align: center;
+}
+
+table, th, td {
+   border: 1px solid teal;
+}
+
+button {
+  background-color: mediumseagreen;
+  border-radius: 50%;
+  color: mediumvioletred;
+}
+button:hover {
+  background-color: blanchedalmond;
+  border-radius: 12px;
+  color: brown;
+}
+.incomplete {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: fuchsia;
+}
+.complete {
+  text-decoration: overline;
+  text-decoration-style: dotted;
+  color: tomato;
+}
+h1 {
+  color: cornflowerBlue;
+}
+h2 {
+  color: orange;
+}
+th {
+  color: papayawhip;
+}
+label {
+  color: lemonchiffon;
+}
+input {
+  color: #3F1;
+}
+textarea {
+  color: #d11;
+}
